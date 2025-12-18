@@ -11,3 +11,18 @@ header {
     text-align: center;
 }
 
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+}
+

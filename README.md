@@ -20,3 +20,11 @@ Git Commands Used:
        git remote add origin
        git push
        git pull
+
+Branches:
+
+ feature
+ bugfix
+ test
+ experiment
+
