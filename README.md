@@ -1,4 +1,9 @@
-Introduction: This repository demonstrates Version Control skills using Git Bash & GitHub. It contains an HTML portfolio and documents Git operations.
+Introduction:
+       This repository demonstrates Version Control skills using Git Bash & GitHub. It contains an HTML portfolio and documents Git operations.
+
+Project Overview:
+       This project focuses on understanding and implementing Git and GitHub for version control using Git Bash.
+       A simple web project was created and managed through multiple commits, branches, merges, and conflict resolution to simulate real-world software development workflows.
 
 Technologies:
 
@@ -6,26 +11,131 @@ Technologies:
        CSS
        Git & GitHub
        Version Control
-Git Concepts Demonstrated: Initialize repository Commits with messages Branching Merging Merge conflict resolution Remote operations
+Git Concepts Demonstrated: 
+       Initialize repository Commits with messages Branching Merging Merge conflict resolution Remote operations
 Git Commands Used:
 
+Step 1: Create Project Folder
+              
+       mkdir
+       cd 
+
+
+Explanation: Creates and navigates to the project directory.
+
+Step 2: Initialize Git Repository
+
        git init
-       git add
-       git commit -m ""
-       git status
-       git log
-       git branch
-       git checkout
-       git merge
-       git remote add origin
-       git push
-       git pull
+
+
+Explanation: Initializes an empty Git repository inside the project folder.
+
+Step 3: Create Project Files
+
+       touch index.html styles.css README.md
+
+
+Explanation: Creates basic project files for the web project and documentation.
+
+Step 4: Add Files to Staging Area
+
+       git add .
+
+
+Explanation: Stages all newly created and modified files for commit.
+
+Step 5: First Commit
+
+       git commit -m "Initial project setup"
+
+
+Explanation: Saves the first snapshot of the project.
+
+Step 6: Create Feature Branch
+
+       git branch feature
+
+
+Explanation: Creates a new branch to add new features separately.
+
+Step 7: Switch to Feature Branch
+
+       git checkout feature
+
+
+Explanation: Switches the working directory to the feature branch.
+
+Step 8: Add Feature Content
+
+       git commit -am "Add portfolio content"
+
+
+Explanation: Commits feature-related changes to the feature branch.
+
+Step 9: Create Bugfix Branch
+
+       git branch bugfix
+
+
+Explanation: Creates a branch dedicated to fixing issues.
+
+Step 10: Create Test Branch
+
+       git branch test
+
+
+Explanation: Creates a branch for testing changes before final merge.
+
+Step 11: Create Experiment Branch
+
+       git branch experiment
+
+
+Explanation: Creates a branch to try experimental changes safely.
+
+Step 12: Merge Feature Branch
+
+       git merge feature
+
+
+Explanation: Merges feature branch changes into the current branch.
+
+Step 13: Merge Conflict Occurred
+
+       <<<<<<< HEAD
+       Conflicting content
+       =======
+       Feature content
+       >>>>>>> feature
+
+
+Explanation: Git detects conflicts when the same file is modified in multiple branches.
+
+Step 14: Resolve Merge Conflict
+       
+       git add .
+       git commit -m "Resolve merge conflict"
+
+
+Explanation: Marks conflicts as resolved and completes the merge.
+
+Step 15: Create GitHub Repository
+
+       git remote add origin https://github.com/USERNAME/Git-bash_project.git
+
+
+Explanation: Connects local repository to GitHub.
+
+Step 16: Push Project to GitHub
+
+       git push -u origin master
+
 Branches:
 
- feature
- bugfix
- test
- experiment
+       feature
+        bugfix
+        test
+        experiment
 Merge Conflict:
 
 Created intentional conflict in t.HTML between test and experiment branches. Resolved manually → Final heading committed.
@@ -34,6 +144,7 @@ Challenges:
 
   Understanding merge conflicts
   Managing multiple branches
+  
 Conclusion:
 
 This project helped me practice full Git workflow including: Local repository management Branching strategies Handling conflicts Working with GitHub remotes
