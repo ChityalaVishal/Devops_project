@@ -137,6 +137,17 @@ Branches:
         bugfix
         test
         experiment
+
+Project Structure:
+
+       Devops_project/
+       │
+       ├── index.html        # Main HTML file for the portfolio website
+       ├── styles.css        # CSS file for styling the webpage
+       ├── README.md         # Project documentation and details
+       │
+       └── .git/             # Git repository metadata (auto-generated)
+       
 Merge Conflict:
 
 Created intentional conflict in t.HTML between test and experiment branches. Resolved manually → Final heading committed.
